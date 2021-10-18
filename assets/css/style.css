@@ -1,0 +1,555 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+header{
+  
+    padding: 20px;  
+    height: 100px;
+    background-color:#4d4e48;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #b8b8b8;
+}
+.menu ul li .aHome{
+    color: #18cfab;
+}
+.home{
+height: 600px;
+background-image: url(../images/slider2.jpg);
+background-size: cover;
+
+}
+.allParas{
+    text-align: center;
+    padding-top: 150px;
+    line-height: 70px;
+    color: #ffffff;
+}
+.para1{
+    font-size: 35px;
+    font-weight: bold
+
+}
+.para2{
+    font-size: 79px;
+    font-weight: bold;
+}
+.para3{
+    font-size: 34px;
+}
+.buttons{
+ display: flex;
+ place-content: center;
+ margin-top: 50px;
+    
+}
+.btn1{
+    width: 165px;
+height: 60px;
+border-radius: 4px;
+background-color: #18cfab;
+font-size: 13px;
+line-height: 32px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+margin-right: 10px;
+}
+.btn2{
+    width: 165px;
+height: 60px;
+border-radius: 4px;
+background-color: #00cbf6;
+font-size: 13px;
+line-height: 32px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+margin-left: 10px;
+}
+.options{
+height: 375px;
+width: 100%;
+display: flex;
+text-align: center;
+}
+.options svg{
+    margin-top: 80px;
+}
+.options img{
+    margin-top: 80px;
+}
+
+.card1{
+width: 25%;
+height: 80%;
+background-color: #1c2a33;
+}
+.card2{
+    width: 25%;
+    height: 80%;
+    background-color: #18cfab;
+}
+.card3{
+    width: 25%;
+    height: 80%;
+    background-color: #1c2a33;  
+}
+.card4{
+    width: 25%;
+    height: 80%;
+    background-color: #18cfab;
+}
+.smallCard1{
+    width:100%;
+height: 7px;
+background-color: #18cfab;
+}
+.smallCard2{
+    width: 100%;
+height: 7px;
+background-color: #ffff;
+}
+.smallCard3{
+    width: 100%;
+height: 7px;
+background-color: #18cfab;
+}
+.smallCard4{
+    width: 100%;
+height: 7px;
+background-color: #ffff;
+}
+.card1 p a {
+    font-size: 20px;
+color: #18cfab;
+font-weight: 700;
+font-family: "Montserrat";
+
+}
+.card2 p a {
+    font-size: 20px;
+color: #ffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.card3 p a {
+    font-size: 20px;
+color: #18cfab;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.card4 p a {
+    font-size: 20px;
+color: #ffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.card1 p{
+    margin-top: 40px;
+}
+.card2 p{
+    margin-top: 60px;
+}
+.card3 p{
+    margin-top: 40px;
+}
+.card4 p{
+    margin-top: 60px;
+}
+.features{
+    height: 800px;
+}
+.features h2{
+    font-size: 36px;
+line-height: 40px;
+color: #4e4e4e;
+font-weight: 400;
+
+text-align: center;
+}
+.feature1{
+    width: 31%;
+    height: 160px;
+
+}
+.feature2{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+}
+.feature3{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+}
+.feature4{
+    width: 31%;
+    height: 160px;
+    margin-top: 33px;
+}
+.feature5{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.feature6{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.feature7{
+    width: 31%;
+    height: 160px;
+    margin-top: 33px;
+}
+.feature8{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.feature9{
+    width: 31%;
+    height: 160px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+.amazeFeatures{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgP{
+    float: left;
+    overflow: hidden;
+}
+.amazeFeatures .imgP svg{
+    float: left;
+    width: 24px;
+height: 34px;
+}
+.imgP p{
+    float: right;
+    margin-left: 30px;
+    font-size: 18px;
+line-height: 40px;
+color: #717171;
+font-weight: 700;
+
+text-align: center;
+}
+.modules{
+    margin-top: 50px;
+    text-align: left;
+    width: 334px;
+height: 77px;
+font-size: 14px;
+line-height: 25px;
+color: #777777;
+font-weight: 300;
+
+}
+.about{
+    height: 600px;
+    background-image: url(../images/aboutcompnay-bg.jpg);
+    background-size: cover;
+    
+}
+.ourCompany{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about .tabImage img{
+    width: 600px;
+    margin-top: 270px;
+}
+.progressBar{
+    margin-top: 100px;
+                                             
+}
+.progressBar h2{
+    font-size: 36px;
+line-height: 40px;
+color: #ffffff;
+font-weight: 400;   
+margin-left: 20px;
+}
+.progressBar ul{
+    display: flex;
+    margin-top: 60px;
+    text-align: left;
+}
+.progressBar ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+.progressBar ul li a{
+text-decoration: none;
+font-size: 16px;
+line-height: 42px;
+color: #f5f5f5;
+font-weight: 700;
+
+
+}
+/* .progressBar ul li:last-child{
+    color: #18cfab;
+} */
+.about .progressBar .progress #prog1{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog1 .pr1{
+    width: 400px;
+    height: 39px;
+    background-color: #9b5ea4;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+}
+.about .progressBar .progress #prog2{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog2 .pr2{
+    width: 500px;
+    height: 39px;
+    background-color: #12b0df;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+}
+.about .progressBar .progress #prog3{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog3 .pr3{
+    width: 350px;
+    height: 39px;
+    background-color: #d77f7e;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+}
+.about .progressBar .progress #prog4{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog4 .pr4{
+    width: 530px;
+    height: 39px;
+    background-color: #21bc9d;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+}
+.about .progressBar .progress #prog5{
+    width: 556px;
+height: 39px;
+border-radius: 4px;
+margin-bottom: 10px;
+
+border: 1px solid #959595;
+}
+.about .progressBar .progress #prog5 .pr5{
+    width: 430px;
+    height: 39px;
+    background-color: #bc8936;   
+    text-align: left; 
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px;
+}
+.progressBar .progress{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.progressBar .ourSkills{
+    border-top: 2px solid #16cfa2;
+    color: #16cfa2;
+    
+}
+.about .ourCompany .progressBar .hr1{
+width: 80px;
+height: 2px;
+background-color: #18cfab;
+margin-top: 30px;
+margin-left: 140px;
+}
+.features .hr1{
+    width: 80px;
+height: 2px;
+background-color: #18cfab;
+margin-top: 30px;
+margin-left: 450px;
+}
+.amazingWork{
+    background-color: #f8fcff;
+    height: 1000px;
+}
+.amazingWork h2{
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
+.amazingWork .hr1{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+.works{
+    margin-top: 40px;
+}
+.works ul{
+    display: flex;
+    justify-content: center;
+}
+.works ul li{
+    list-style: none;
+    padding: 15px 30px;
+background-color: #ffffff;
+border: 1px solid #ebebeb;
+text-align: center;
+}
+.works ul li a{
+    text-decoration: none;
+    font-size: 14px;
+line-height: 42px;
+color: #717171;
+font-weight: 400;
+
+}
+.amazingWork .works ul li:first-child{
+    border-top: 1px solid #18cfab;
+    color: #18cfab;
+}
+.amazingWork .workImages{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.amazingWork .workImages div:nth-child(even){
+    background-color: #9b5ea4;
+}
+
+.work1{
+    width: 25%;
+    height: 208px;
+    
+}
+.work2{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work3{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work4{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work5{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work6{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work7{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work8{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work9{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work10{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work11{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
+.work12{
+    width: 25%;
+    height: 208px;
+    background-color: #959595;
+}
