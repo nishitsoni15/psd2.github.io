@@ -12,7 +12,7 @@ header{
   
     padding: 20px;  
     height: 100px;
-    background-color:#4d4e48;
+    background-color:rgba(64, 63, 60, 0.5);
 }
 
 .menu ul li{
@@ -32,18 +32,24 @@ header{
     font-weight: bold;
     color: #b8b8b8;
 }
+.menu ul li a:hover{
+    color: #18cfab;
+    border-bottom: 1px solid #18cfab;
+}
 .menu ul li .aHome{
     color: #18cfab;
+    border-bottom: 1px solid #18cfab;
 }
+
 .home{
 height: 600px;
-background-image: url(../images/slider2.jpg);
+background-image: url(../images/slider1.jpg);
 background-size: cover;
 
 }
 .allParas{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
     line-height: 70px;
     color: #ffffff;
 }
@@ -67,27 +73,48 @@ background-size: cover;
 }
 .btn1{
     width: 165px;
-height: 60px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    margin-right: 10px;
+
+}
+.btn1 .btnDiv1{
+    width: 165px;
+height: 55px;
 border-radius: 4px;
 background-color: #18cfab;
 font-size: 13px;
 line-height: 32px;
+text-align: center;
 color: #ffffff;
 font-weight: 700;
-text-align: center;
-margin-right: 10px;
+margin-top: 4px;
+padding-top: 10px;
+
 }
 .btn2{
     width: 165px;
-height: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+margin-left: 10px;
+}
+.btn2 .btnDiv2{
+    width: 165px;
+height: 55px;
 border-radius: 4px;
-background-color: #00cbf6;
+background-color: #01ccf7;
 font-size: 13px;
 line-height: 32px;
+text-align: center;
 color: #ffffff;
 font-weight: 700;
-text-align: center;
-margin-left: 10px;
+margin-top: 4px;
+padding-top: 10px;
+
 }
 .options{
 height: 375px;
@@ -248,10 +275,10 @@ text-align: center;
     float: left;
     overflow: hidden;
 }
-.amazeFeatures .imgP svg{
+.amazeFeatures .imgP .imgPsvg{
     float: left;
     width: 24px;
-height: 34px;
+ height: 34px;
 }
 .imgP p{
     float: right;
@@ -261,12 +288,15 @@ line-height: 40px;
 color: #717171;
 font-weight: 700;
 
-text-align: center;
+
+}
+.imgP .active{
+    color: #18cfab;
 }
 .modules{
     margin-top: 50px;
     text-align: left;
-    width: 334px;
+    width: 300px;
 height: 77px;
 font-size: 14px;
 line-height: 25px;
@@ -291,7 +321,7 @@ font-weight: 300;
 }
 .progressBar{
     margin-top: 100px;
-                                             
+                                    
 }
 .progressBar h2{
     font-size: 36px;
@@ -318,6 +348,10 @@ font-weight: 700;
 
 
 }
+.progressBar ul li a:hover{
+    color: #18cfab;
+    border-top: 1px solid #18cfab;
+}
 /* .progressBar ul li:last-child{
     color: #18cfab;
 } */
@@ -330,13 +364,14 @@ border: 1px solid #959595;
 }
 .about .progressBar .progress #prog1 .pr1{
     width: 400px;
-    height: 39px;
+    height: 37px;
     background-color: #9b5ea4;   
     text-align: left; 
     font-size: 13px;
     line-height: 27px;
     color: #ffffff;
     font-weight: 400;
+    border-radius: 4px;
     padding: 5px;
 }
 .about .progressBar .progress #prog2{
@@ -348,8 +383,8 @@ margin-bottom: 10px;
 border: 1px solid #959595;
 }
 .about .progressBar .progress #prog2 .pr2{
-    width: 500px;
-    height: 39px;
+    width: 480px;
+    height: 37px;
     background-color: #12b0df;   
     text-align: left; 
     font-size: 13px;
@@ -357,6 +392,7 @@ border: 1px solid #959595;
     color: #ffffff;
     font-weight: 400;
     padding: 5px;
+    border-radius: 4px;
 }
 .about .progressBar .progress #prog3{
     width: 556px;
@@ -368,7 +404,7 @@ border: 1px solid #959595;
 }
 .about .progressBar .progress #prog3 .pr3{
     width: 350px;
-    height: 39px;
+    height: 37px;
     background-color: #d77f7e;   
     text-align: left; 
     font-size: 13px;
@@ -376,6 +412,7 @@ border: 1px solid #959595;
     color: #ffffff;
     font-weight: 400;
     padding: 5px;
+    border-radius: 4px;
 }
 .about .progressBar .progress #prog4{
     width: 556px;
@@ -387,7 +424,7 @@ border: 1px solid #959595;
 }
 .about .progressBar .progress #prog4 .pr4{
     width: 530px;
-    height: 39px;
+    height: 37px;
     background-color: #21bc9d;   
     text-align: left; 
     font-size: 13px;
@@ -395,6 +432,7 @@ border: 1px solid #959595;
     color: #ffffff;
     font-weight: 400;
     padding: 5px;
+    border-radius: 4px;
 }
 .about .progressBar .progress #prog5{
     width: 556px;
@@ -406,7 +444,8 @@ border: 1px solid #959595;
 }
 .about .progressBar .progress #prog5 .pr5{
     width: 430px;
-    height: 39px;
+    height: 37px;
+    border-radius: 4px;
     background-color: #bc8936;   
     text-align: left; 
     font-size: 13px;
@@ -439,9 +478,16 @@ background-color: #18cfab;
 margin-top: 30px;
 margin-left: 450px;
 }
+.features .hr2{
+    width: 80px;
+    height: 2px;
+    background-color: #18cfab;
+    margin-top: 2px;
+    margin-left: 480px;
+}
 .amazingWork{
     background-color: #f8fcff;
-    height: 1000px;
+    height: 1050px;
 }
 .amazingWork h2{
     font-size: 36px;
@@ -467,7 +513,7 @@ margin-left: 450px;
 }
 .works ul li{
     list-style: none;
-    padding: 15px 30px;
+    padding: 10px 30px;
 background-color: #ffffff;
 border: 1px solid #ebebeb;
 text-align: center;
@@ -480,76 +526,145 @@ color: #717171;
 font-weight: 400;
 
 }
-.amazingWork .works ul li:first-child{
-    border-top: 1px solid #18cfab;
+.amazingWork .works ul li .all{
+    
     color: #18cfab;
 }
+.amazingWork .works ul .liAll{
+    border-top: 1px solid #18cfab;   
+}
+.amazingWork .works ul li a:hover{
+    color: #18cfab;
+}
+
 .amazingWork .workImages{
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
 }
-.amazingWork .workImages div:nth-child(even){
-    background-color: #9b5ea4;
-}
+
 
 .work1{
     width: 25%;
     height: 208px;
-    
+    border-top: 1px solid #18cfab;
 }
 .work2{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/news/img-1.jpg);
+    background-size: cover;
 }
 .work3{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/news/img-2.jpg);
+    background-size: cover;
 }
 .work4{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/serviecs/tab1.jpg);
+    background-size: cover;
 }
 .work5{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/serviecs/tab2.jpg);
+    background-size: cover;
 }
 .work6{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/news/img-1.jpg);
+    background-size: cover;
 }
 .work7{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/news/img-2.jpg);
+    background-size: cover;
 }
 .work8{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/serviecs/tab1.jpg);
+    background-size: cover;
 }
 .work9{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/serviecs/tab2.jpg);
+    background-size: cover;
 }
 .work10{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/news/img-1.jpg);
+    background-size: cover;
 }
 .work11{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/news/img-2.jpg);
+    background-size: cover;
 }
 .work12{
     width: 25%;
     height: 208px;
-    background-color: #959595;
+    background-image: url(../images/serviecs/tab1.jpg);
+    background-size: cover;
+}
+.workImages .workIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.workIcons .icon1{
+    width: 41px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #18cfab;
+    padding: 10px;
+}
+.workIcons .icon2{
+    margin-left: 5px;
+    width: 41px;
+height: 40px;
+border-radius: 20px;
+background-color: #18cfab;
+padding: 10px;
+}
+ .workBtn{
+    font-size: 18px;
+line-height: 42px;
+color: #ffffff;
+font-weight: 700;
+width: 165px;
+height: 60px;
+border-radius: 4px;
+background-color: #18cfab;
+margin-left: 400px;
+margin-top: 40px;
+border: none;
+}
+/* .workBtn .plus{
+    margin-right:  10px;
+} */
+.creativeDesign{
+    font-size: 14px;
+line-height: 25px;
+color: #18cfab;
+font-weight: 700;
+text-align: center;
+margin-top: 20px;
+}
+.webDesign{
+    font-size: 12px;
+line-height: 25px;
+color: #8a8a8a;
+font-weight: 300;
+text-align: center;
+margin-top: 20px;
 }
